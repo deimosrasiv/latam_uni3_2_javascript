@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-image: linear-gradient(315deg, #d67d91 0%, #853aa4 20%);
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoDesafio {
+    width: 300px;
+}
+
+
+.card {
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 100%px;
+    display: flex;
+    border: 4px;
+    border-style: solid;
+    border-color: #853aa4;
+}
+
+.borderImg {
+    border: 2px;
+    border-style: solid;
+    border-color: white;
+}
+
+.borderImg_2 {
+    border: 2px;
+    border-style: solid;
+    border-color: red;
+}
+
+.stickers {
+    margin: auto;
+    display: block;
+}
+
+.msgStikers,
+.title {
+    color: white;
+}
+
+.msgPassword {
+    color: black;
+}
+
+.imgHome {
+    width: 10%;
+}
+
+footer {
+    color: white;
+}

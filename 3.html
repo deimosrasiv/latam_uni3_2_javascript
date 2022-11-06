@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Icono de la página -->
+    <link rel="icon" href="/assets/icons/favicon.ico" type="ico" sizes="19x19" />
+    <title>Desafío Parte 3</title>
+    <!-- Bootstrap   -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- Mis Css  -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <!-- Tipografía de Google Fonts  importado al css-->
+    <!-- Meta Datos  -->
+    <meta name="" />
+    <meta name="" />
+</head>
+
+<body>
+    <div class="container pt-5 pb-5">
+        <div class="card " id="borderCard">
+            <h6 class="list-name py-4" align="center"><b>Ingrese Password</b></h6>
+            <div class="container">
+                <div class="row">
+                    <div class="col-4">
+                        <select name="digito01" id="inputdigito01" type="number" class="form-control shadow-lg" required />
+                        <option selected>0</option>
+                        <option value="1"> 1 </option>
+                        <option value="2"> 2 </option>
+                        <option value="3"> 3 </option>
+                        <option value="4"> 4 </option>
+                        <option value="5"> 5 </option>
+                        <option value="6"> 6 </option>
+                        <option value="7"> 7 </option>
+                        <option value="8"> 8 </option>
+                        <option value="9"> 9 </option>
+                        </select>
+                    </div>
+                    <div class="col-4">
+                        <select name="digito02" id="inputdigito02" type="number" class="form-control shadow-lg" required />
+                        <option selected>0</option>
+                        <option value="1"> 1 </option>
+                        <option value="2"> 2 </option>
+                        <option value="3"> 3 </option>
+                        <option value="4"> 4 </option>
+                        <option value="5"> 5 </option>
+                        <option value="6"> 6 </option>
+                        <option value="7"> 7 </option>
+                        <option value="8"> 8 </option>
+                        <option value="9"> 9 </option>
+                        </select>
+                    </div>
+                    <div class="col-4">
+                        <select name="digito03" id="inputdigito03" type="number" class="form-control shadow-lg" required />
+                        <option selected>0</option>
+                        <option value="1"> 1 </option>
+                        <option value="2"> 2 </option>
+                        <option value="3"> 3 </option>
+                        <option value="4"> 4 </option>
+                        <option value="5"> 5 </option>
+                        <option value="6"> 6 </option>
+                        <option value="7"> 7 </option>
+                        <option value="8"> 8 </option>
+                        <option value="9"> 9 </option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="container py-4">
+                <button type="button" id="btnVerify" class="btn btn-dark">Ingresar</button>
+            </div>
+            <div class="container">
+                <h4 class="py-2 msgPassword" id="msgPassword" align="center"></h4>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card " id="borderCard">
+            <h3 class="py-2" align="center"><b>Desafío Parte 3 Total (4 puntos)</b></h3>
+            <p>
+                Se debe construir una página con 3 select y opciones con dígitos del 1 al 9, al hacer click a
+                la opción ingresar se debe verificar que el password sea 911 y en ese caso mostrar debajo
+                del botón ingresar, un párrafo con el contenido "password 1 correcto", en caso de que el
+                password sea 714 se debe mostrar en el párrafo "password 2 es correcto", si ingresa otro
+                valor se debe mostrar "password incorrecto".
+            </p>
+            <ol>
+                <li>Se muestra correctamente el párrafo "password 1 correcto" al ingresar el ingresar el
+                    password 911 utilizando los select y luego presionando botón con el texto ingresar (1
+                    punto)
+                </li>
+                <li>Adicionalmente se muestra correctamente el párrafo "password 2 correcto" al
+                    ingresar el ingresar el password 714 utilizando los select y luego presionando botón
+                    con el texto ingresar.(2 punto)
+                </li>
+                <li>Se muestra password incorrecto al seleccionar cualquier otro password (1 punto)</li>
+            </ol>
+            <div class="container py-2" align="center">
+                <a class="link" href="index.html">
+                    <img class="imgHome" src="assets/img/home.png" alt="Logo de casa" />
+                </a>
+            </div>
+        </div>
+    </div>
+    <footer class="text-center">
+        © 2020-2021 Santiago, Chile Ð€IMØ§¯®Ã§Iv Todos los derechos reservados.
+    </footer>
+    <!-- SCRIPT INGRESO DE PRODUCCION -->
+    <script type="text/javascript" src="assets/js/app03.js"></script>
+</body>
+
+</html>

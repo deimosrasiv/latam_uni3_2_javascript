@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Icono de la página -->
+    <link rel="icon" href="/assets/icons/favicon.ico" type="ico" sizes="19x19" />
+    <title>Desafío Parte 2</title>
+    <!-- Bootstrap   -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- Mis Css  -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <!-- Tipografía de Google Fonts  importado al css-->
+    <!-- Meta Datos  -->
+    <meta name="" />
+    <meta name="" />
+</head>
+
+<body>
+    <div class="container pt-5 pb-5">
+        <div class="row">
+            <div class="col-12 col-xl-4 col-lg-4 col-md-4  my-3 px-auto ">
+                <div class="card " id="borderCard">
+                    <img class="stickers" src="assets/img/y.png" style="width:60%" alt="BICICLETA MERIDA SCULTURA 300 2023" title="BICICLETA MERIDA SCULTURA 300 2023" />
+                    <div class="col-12   p-4">
+                        <input type="number" id="amount01" min="0" max="10" value="0" class="form-control shadow-lg">
+                        <p class="px-4" align="center" style="font-size: 10px;">
+                            <b>
+                                Cantidad.
+                            </b>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-xl-4 col-lg-4 col-md-4  my-3 px-auto ">
+                <div class="card " id="borderCard">
+                    <img class="stickers" src="assets/img/tu.png" style="width:60%" alt="BICICLETA MERIDA SCULTURA 300 2023" title="BICICLETA MERIDA SCULTURA 300 2023" />
+                    <div class="col-12   p-4">
+                        <input type="number" id="amount02" min="0" max="10" value="0" class="form-control shadow-lg">
+                        <p class="px-4" align="center" style="font-size: 10px;">
+                            <b>
+                                Cantidad.
+                            </b>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-xl-4 col-lg-4 col-md-4  my-3 px-auto ">
+                <div class="card " id="borderCard">
+                    <img class="stickers" src="assets/img/y.png" style="width:60%" alt="BICICLETA MERIDA SCULTURA 300 2023" title="BICICLETA MERIDA SCULTURA 300 2023" />
+                    <div class="col-12   p-4">
+                        <input type="number" id="amount03" min="0" max="10" value="0" class="form-control shadow-lg">
+                        <p class="px-4" align="center" style="font-size: 10px;">
+                            <b>
+                                Cantidad.
+                            </b>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h4 class="py-2 msgStikers" id="msgStikers" align="center"></h4>
+    </div>
+    <div class="container py-4">
+        <button type="button" id="btnVerify" class="btn btn-dark">Verifica</button>
+    </div>
+    <div class="container">
+        <div class="card " id="borderCard">
+            <h3 class="py-2" align="center">Desafío Parte 2: Total (4 puntos)</h3>
+            <p>Se debe construir una página web que permita pedir hasta 10 stickers de los 3 tipos
+                disponibles. Para eso deberá existir un input debajo de cada imagen donde el usuario podrá
+                ingresar un número. En caso de que la suma de todos los stickers seleccionados sea menor
+                o igual 10 se indicará en un párrafo nuevo la cantidad de stickers llevados. Ejemplo "llevas
+                5 stickers" en cualquier otro caso se mostrará un texto que dice "Llevas demasiados
+                stickers"
+            </p>
+            <ol>
+                <li>El párrafo muestra la cantidad de stickers seleccionados (2 puntos)</li>
+                <li>El párrafo muestra que llevas demasiados stickers en caso de que la cantidad sea mayor que 10. (2 punto)</li>
+            </ol>
+            <div class="container py-2" align="center">
+                <a class="link" href="index.html">
+                    <img class="imgHome" src="assets/img/home.png" alt="Logo de casa" />
+                </a>
+            </div>
+        </div>
+    </div>
+    <footer class="text-center">
+        © 2020-2021 Santiago, Chile Ð€IMØ§¯®Ã§Iv Todos los derechos reservados.
+    </footer>
+    <!-- SCRIPT INGRESO DE PRODUCCION -->
+    <script type="text/javascript" src="assets/js/app02.js"></script>
+</body>
+
+</html>
