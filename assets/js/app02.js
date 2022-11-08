@@ -19,7 +19,7 @@ btnVerify.addEventListener("click", ()=>{
 	if (sumStikers > 10){
 		//console.log("muchos Stikers");
 		document.getElementById("msgStikers").innerHTML=sumStikers +" Stikers, lleva demasiados!"
-		
+		return
 	}
 
 	if (sumStikers === 0){
